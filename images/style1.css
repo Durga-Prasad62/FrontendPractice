@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.first-image-container{
+    border: 2px solid;
+    display: inline-block;
+    width:90%;
+    height:300px;
+    margin:20px;
+    position: relative;
+}
+img{
+    width:300px;
+    height:290px;
+    border-radius:50%;
+    margin-left:20px;    
+}
+.itemcontainer1,.itemcontainer2,.itemcontainer3,.itemcontainer4{
+    position: relative;
+    display: inline-block;
+}
+.second-image-container{
+    border: 2px solid;
+    display: inline-block;
+    width:90%;
+    height:300px;
+    margin:20px;
+    position: relative;
+}
+p{
+    position: absolute;
+    top:45%;
+    left:45%;
+    color:rgb(165, 42, 136);
+    font-size: xx-large;
+}
+.sitemcontainer1,.sitemcontainer2,.sitemcontainer3,.sitemcontainer4{
+    position: relative;
+    display: inline-block;
+}
