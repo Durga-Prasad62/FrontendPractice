@@ -20,7 +20,7 @@
 img{
     width:300px;
     height:290px;
-    border-radius:50%;
+    border-radius:40%;
     margin-left:20px;    
 }
 .itemcontainer1,.itemcontainer2,.itemcontainer3,.itemcontainer4{
@@ -29,7 +29,6 @@ img{
 }
 .second-image-container{
     border: 2px solid;
-    display: flex;
     width:95%;
     height:300px;
     margin:20px;
@@ -44,4 +43,5 @@ p{
 }
 .sitemcontainer1,.sitemcontainer2,.sitemcontainer3,.sitemcontainer4{
     position: relative;
+     display: flex;
 } 
