@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .parentcontainer{
     border: 2px solid;
@@ -16,7 +17,7 @@ img{
 .first-image-container{
     margin: 10px 20px;
     border:2px solid;
-     display: flex;
+    display: flex;
     justify-content: space-around;
      
 }
@@ -46,4 +47,5 @@ p{
 
 
 
+   
    

@@ -5,13 +5,11 @@
 }
 .parentcontainer{
     border:10px solid blue;
-    width: 95%;
-    
-
+    width: 95%;  
 }
 .first-image-container{
     border: 2px solid;
-    display: flex;
+    display: inline-block;
     width:95%;
     height:300px;
     margin:20px;
@@ -25,14 +23,14 @@ img{
 }
 .itemcontainer1,.itemcontainer2,.itemcontainer3,.itemcontainer4{
     position: relative;
-    display: flex;
+     display: inline-block;
 }
 .second-image-container{
     border: 2px solid;
     width:95%;
     height:300px;
     margin:20px;
-    display: flex;
+    display: inline-block;
     position: relative;
 }
 p{
@@ -44,5 +42,5 @@ p{
 }
 .sitemcontainer1,.sitemcontainer2,.sitemcontainer3,.sitemcontainer4{
     position: relative;
-     display: flex;
+    display: inline-block;
 } 
