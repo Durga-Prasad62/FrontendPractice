@@ -72,18 +72,22 @@
     justify-content: center;
   
 }
-.box>.list:first-child{
+.box>.list>li:first-child{
     color:blue;
+}
+.box>.list>li:last-child{
+    color:rgb(255, 0, 195);
 }
 .box>.secondlist{
     margin-left: 30px;
 }
-.box>.secondlist:last-child{
+.box>.secondlist>p:last-child{
     color: brown;
 }
-.box>.secondlist:nth-last-child{
-    color: brown;
+.box>.secondlist>p:nth-child(2){
+    color: rgb(14, 204, 122);
 }
+
 h3::before{
     content: "iam coming";
     background-color:brown;
