@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f0c040;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #222;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+  padding: 5px;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Toggle icon (hidden on large screens) */
+.menu-icon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+  <nav class="navbar">
+    <div class="logo">ULTRAS</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search products...">
+      <button>🔍</button>
+    </div>
+  </nav>
+</header>
+</body>
+</html>
