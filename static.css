@@ -409,6 +409,177 @@ body,html{
     align-items: center;
     gap: 5px;
 }
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* For large tablets and smaller desktops (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .navitems {
+    margin-left: 45%;
+    gap: 20px;
+  }
+  .companydetails {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .companydetails .card1 {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .teamcardcontainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .teamcardcontainer .new {
+    width: 45%;
+  }
+}
+
+/* For tablets (max-width: 992px) */
+@media (max-width: 992px) {
+  .navitems {
+    display: none;
+  }
+
+  /* Simple mobile nav icon */
+  .navcontainer::after {
+    content: "☰";
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .bgcontainer .text1 p {
+    font-size: 2rem;
+  }
+  .bgcontainer .text2 p {
+    font-size: 1rem;
+  }
+  .learnbutton {
+    width: 40%;
+    font-size: 0.9rem;
+  }
+  .icons {
+    top: 550px;
+    gap: 15px;
+  }
+  .knowcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .knowcontainer .image1 {
+    position: static;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .image1 img {
+    width: 100%;
+  }
+  .projectcontainer {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  .workimgcont-1, .workimgcont-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .workimgcont-1 img, .workimgcont-2 img {
+    width: 80%;
+  }
+  .skillcontainer {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .parent, .parent1, .parent2 {
+    position: static;
+    width: 80%;
+    margin: 15px auto;
+  }
+  .abs, .abs1, .abs2 {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .table {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .table-data, .table-data1 {
+    width: 90%;
+  }
+  .contact-form {
+    height: auto;
+    padding: 20px;
+  }
+  .formcontainer form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formcontainer form button {
+    width: 100%;
+  }
+}
+
+/* For small mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .text1 p {
+    font-size: 1.5rem;
+    left: 20px;
+    top: 200px;
+  }
+  .text2 p {
+    font-size: 0.9rem;
+    left: 20px;
+    top: 270px;
+  }
+  .learnbutton {
+    width: 70%;
+    left: 20px;
+    top: 330px;
+  }
+  .icons {
+    left: 20px;
+    top: 500px;
+    font-size: 16px;
+  }
+  .companydetails .card1 {
+    width: 80%;
+  }
+  .teamcardcontainer .new {
+    width: 90%;
+  }
+  .workimgcont-1 img, .workimgcont-2 img {
+    width: 90%;
+  }
+  .pricecontainer {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .table {
+    flex-direction: column;
+  }
+  .map img {
+    height: 250px;
+  }
+  .last {
+    height: auto;
+    padding: 20px;
+  }
+  .last button {
+    width: 60%;
+    margin-top: 10px;
+  }
+  .newicons {
+    flex-wrap: wrap;
+  }
+}
+
 
 
 
